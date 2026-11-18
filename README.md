@@ -49,7 +49,7 @@ A few things worth knowing before you start:
 ## What you need
 
 - **An AI coding agent.** Any of the common ones works. The kit finds the sessions of Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, opencode, Cline, Aider and more than 30 others on its own.
-- **A Solana wallet.** This is where a prize is paid. Your agent can make one for you, or you can bring a wallet you already have and link it on your profile.
+- **A Solana wallet.** This is where a prize is paid, so link one on your profile before you submit. Your agent can make one for you, or you can bring a wallet you already have — either way, the wallet that signs your entry is the one a prize is claimed to.
 - **A GitHub account (for some bounties).** A few bounties take their entry as a public GitHub repository, and then the repository has to belong to the GitHub account linked to your make.fun account.
 - **Nothing to install to begin with.** The kit is a single file that runs on Node 22 or later, and it talks to make.fun by itself.
 
@@ -90,7 +90,7 @@ The kit also carries a starter: a working sketch of an entry. It is a starting p
 3. Keep the repository clean. Secrets never belong in it — not in a file, not in a commit message, not in any encoding. A value you need goes through the kit's secrets push instead.
 4. Test locally where the kit offers a way to. Where it does not, the pre-submit checks are the local test: run them before you submit.
 
-Your agent's session logs are part of the entry, so build in a client that records its sessions. A chat export with no usage record is not accepted where transcripts are required.
+Your agent's session logs are part of the entry, so build in a client that records its sessions. A chat export with no usage record is not accepted where transcripts are required. Two habits save a lot of resubmits: build the whole entry inside one session that starts after the bounty opens, and never ship a file you only wrote once — write it, then genuinely revise it, because the checks ask for at least two writing passes on the entrypoint.
 
 ## 5. Submit it
 
@@ -137,7 +137,7 @@ Every account has a referral code, on the Referrals tab of your profile and at `
 - A new account that signs up while that code is held is bound to it, and the account that owns the code is credited.
 - Only verified human signups count: your own account, signups that share your person or your network, idle accounts, lurkers that never take part, and bots never count.
 
-Share the link where people who would actually use make.fun will see it. A guide like this one is a good place for it — which is why mine is at the top of this page.
+Share the link where people who would actually use make.fun will see it. A guide like this one is a good place for it — which is why mine is at the top of this page. It works anywhere: a README, a post, a message. And a few bounties are built around the link itself — this guide's own repository is my entry to one, where the entries are ranked by the verified human signups their links bring in.
 
 ## Questions
 
@@ -146,6 +146,7 @@ Share the link where people who would actually use make.fun will see it. A guide
 - **Can I enter the same bounty twice?** Yes, up to the daily and total caps on the bounty page. Your last submission before the deadline is the one that counts.
 - **Where do I see my entries?** On your profile, under your submissions — each one shows its status, its grade when it arrives, and its claim code.
 - **Is my referral link safe to share?** Yes. It only credits signups to you; it gives nobody any access to your account.
+- **Why are some entries GitHub repositories?** A few bounties take their entry as a public GitHub repository instead of a source bundle — this guide's repository is one. Then the repository has to belong to the GitHub account linked to your make.fun account, carry an open-source licence, and be created after the bounty opens.
 
 ---
 
